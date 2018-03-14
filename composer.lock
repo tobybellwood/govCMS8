@@ -1180,7 +1180,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1515768484",
+                    "datestamp": "1520803980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2727,7 +2727,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.10",
-                    "datestamp": "1519245180",
+                    "datestamp": "1520456007",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3807,7 +3807,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1514109785",
+                    "datestamp": "1519387684",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4109,7 +4109,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta1",
-                    "datestamp": "1487207830",
+                    "datestamp": "1519655285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4358,7 +4358,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc3",
-                    "datestamp": "1517746080",
+                    "datestamp": "1520964784",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -10666,16 +10666,16 @@
         },
         {
             "name": "se/selenium-server-standalone",
-            "version": "3.9.1",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sveneisenschmidt/selenium-server-standalone.git",
-                "reference": "246cbe221c963b4491c6beab14c3eb055b369ce1"
+                "reference": "6c72d0357d2a11d3a3e79e2c44ac6a0941bc50a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sveneisenschmidt/selenium-server-standalone/zipball/246cbe221c963b4491c6beab14c3eb055b369ce1",
-                "reference": "246cbe221c963b4491c6beab14c3eb055b369ce1",
+                "url": "https://api.github.com/repos/sveneisenschmidt/selenium-server-standalone/zipball/6c72d0357d2a11d3a3e79e2c44ac6a0941bc50a5",
+                "reference": "6c72d0357d2a11d3a3e79e2c44ac6a0941bc50a5",
                 "shasum": ""
             },
             "require-dev": {
@@ -10705,7 +10705,7 @@
                 "selenium",
                 "testing"
             ],
-            "time": "2018-02-14T15:10:10+00:00"
+            "time": "2018-03-08T21:38:23+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
