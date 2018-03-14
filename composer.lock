@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "21e1dea7e8e98e73486e5163cc121cb6",
+    "content-hash": "eed6f0ac180802414095455a85c8db63",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1180,7 +1180,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1515768484",
+                    "datestamp": "1520803980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -1265,63 +1265,6 @@
             "homepage": "https://www.drupal.org/project/contact_storage",
             "support": {
                 "source": "http://cgit.drupalcode.org/contact_storage"
-            }
-        },
-        {
-            "name": "drupal/contribute",
-            "version": "1.0.0-beta7",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/contribute",
-                "reference": "8.x-1.0-beta7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta7.zip",
-                "reference": "8.x-1.0-beta7",
-                "shasum": "f31aaf1294b9504b0057f59ef131d5936f413ede"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-beta7",
-                    "datestamp": "1518634080",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Adrian Cid Almaguer (adriancid)",
-                    "homepage": "https://www.drupal.org/u/adriancid",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Jacob Rockowitz (jrockowitz)",
-                    "homepage": "https://www.drupal.org/u/jrockowitz",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
-            "homepage": "https://www.drupal.org/project/contribute",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/contribute",
-                "issues": "https://www.drupal.org/project/issues/contribute"
             }
         },
         {
@@ -2727,7 +2670,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.10",
-                    "datestamp": "1519245180",
+                    "datestamp": "1520456007",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3807,7 +3750,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1514109785",
+                    "datestamp": "1519387684",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4109,7 +4052,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta1",
-                    "datestamp": "1487207830",
+                    "datestamp": "1519655285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4329,20 +4272,19 @@
         },
         {
             "name": "drupal/webform",
-            "version": "5.0.0-rc3",
+            "version": "5.0.0-rc4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform",
-                "reference": "8.x-5.0-rc3"
+                "reference": "8.x-5.0-rc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc3.zip",
-                "reference": "8.x-5.0-rc3",
-                "shasum": "1d232ccc9004d14369f59fbc1acd80a2f94428c7"
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc4.zip",
+                "reference": "8.x-5.0-rc4",
+                "shasum": "91ec64a98a2890fae741c9da3e841e58695e66da"
             },
             "require": {
-                "drupal/contribute": "^1.0",
                 "drupal/core": "*"
             },
             "require-dev": {
@@ -4357,8 +4299,8 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-rc3",
-                    "datestamp": "1517746080",
+                    "version": "8.x-5.0-rc4",
+                    "datestamp": "1520964784",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -4381,8 +4323,9 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "Liam Morland",
-                    "homepage": "https://www.drupal.org/user/493050"
+                    "name": "Alexander Trotsenko (bucefal91)",
+                    "homepage": "https://www.drupal.org/u/bucefal91",
+                    "role": "Co-maintainer"
                 },
                 {
                     "name": "bucefal91",
@@ -8691,6 +8634,63 @@
             ],
             "description": "Drupal Console Extend Plugin",
             "time": "2017-07-28T17:11:54+00:00"
+        },
+        {
+            "name": "drupal/contribute",
+            "version": "1.0.0-beta7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/contribute",
+                "reference": "8.x-1.0-beta7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/contribute-8.x-1.0-beta7.zip",
+                "reference": "8.x-1.0-beta7",
+                "shasum": "f31aaf1294b9504b0057f59ef131d5936f413ede"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta7",
+                    "datestamp": "1518634080",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Cid Almaguer (adriancid)",
+                    "homepage": "https://www.drupal.org/u/adriancid",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jacob Rockowitz (jrockowitz)",
+                    "homepage": "https://www.drupal.org/u/jrockowitz",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
+            "homepage": "https://www.drupal.org/project/contribute",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/contribute",
+                "issues": "https://www.drupal.org/project/issues/contribute"
+            }
         },
         {
             "name": "drupal/devel",
