@@ -1180,7 +1180,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1515768484",
+                    "datestamp": "1520803980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2727,7 +2727,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.10",
-                    "datestamp": "1519245180",
+                    "datestamp": "1520456007",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3807,7 +3807,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1514109785",
+                    "datestamp": "1519387684",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4084,17 +4084,17 @@
         },
         {
             "name": "drupal/swiftmailer",
-            "version": "1.0.0-beta1",
+            "version": "1.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/swiftmailer",
-                "reference": "8.x-1.0-beta1"
+                "reference": "8.x-1.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/swiftmailer-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "d49a50638a629c24d681181b82255fd50c1b2642"
+                "url": "https://ftp.drupal.org/files/projects/swiftmailer-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "a63a91e7816a06bf8e52ac9b5e48a892a1e6b1d4"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -4108,8 +4108,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1",
-                    "datestamp": "1487207830",
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1519655285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4358,7 +4358,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc3",
-                    "datestamp": "1517746080",
+                    "datestamp": "1520964784",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
