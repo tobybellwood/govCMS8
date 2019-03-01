@@ -13,6 +13,10 @@
             "url": "https://asset-packagist.org"
         },
         {
+            "type": "vcs",
+            "url": "git@github.com:govcms/govcms8_uikit_starter.git"
+        },
+        {
             "type": "path",
             "url": "/src",
             "options": {
@@ -28,6 +32,7 @@
         "drupal/core": "8.6.12",
         "drush/drush": "^9.0.0",
         "govcms/govcms": "*",
+        "govcms/govcms8_uikit_starter": "dev-feature/accessibility-combined#fb0265dcd81698174018ee275281990df3852a0c",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
         "webflo/drupal-core-strict": "8.6.12"
