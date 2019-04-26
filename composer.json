@@ -84,7 +84,7 @@
         "drupal/seckit": "1.1",
         "drupal/shield": "1.2",
         "drupal/simple_oauth": "3.14",
-        "drupal/simple_sitemap": "3.0",
+        "drupal/simple_sitemap": "3.1.0",
         "drupal/swiftmailer": "1.0-beta2",
         "drupal/token": "1.5",
         "drupal/username_enumeration_prevention": "1.0-beta2",
@@ -92,7 +92,8 @@
         "drupal/webform": "5.1",
         "oomphinc/composer-installers-extender": "^1.1",
         "swiftmailer/swiftmailer": "5.4.12",
-        "symfony/phpunit-bridge": "^3.4.6"
+        "symfony/phpunit-bridge": "^3.4.6",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
         "bex/behat-screenshot": "^1.2",
@@ -106,7 +107,7 @@
         "grasmash/drupal-security-warning": "^1.1",
         "jakoch/phantomjs-installer": "^2.1",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3",
-        "mikey179/vfsStream": "^1.6",
+        "mikey179/vfsstream": "^1.6",
         "phing/phing": "^2.16",
         "phpunit/phpunit": "^4.8.35 || ^6.5",
         "se/selenium-server-standalone": "^3.6",
@@ -161,7 +162,10 @@
     "config": {
         "bin-dir": "bin/",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.1"
+        }
     },
     "conflict": {
         "drupal/core": "7.*",
