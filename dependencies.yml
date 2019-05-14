@@ -1,0 +1,16 @@
+version: 2
+dependencies:
+- type: php
+  settings:
+    composer_options: "--ignore-platform-reqs --no-progress --no-suggest"
+    commit_message_prefix: "[dependencies.io] "
+
+    related_pr_behavior: close
+
+    github_base_branch: 1.x  # branch to make PR against (if something other than your default branch)
+
+    before_update:
+    - apk add gd gd-dev && docker-php-ext-install gd && docker-php-ext-configure gd
+    - php -m
+    before_commit:
+    - composer package
