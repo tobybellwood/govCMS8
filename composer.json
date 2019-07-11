@@ -25,7 +25,7 @@
         "bower-asset/chosen": "1.8.7",
         "bower-asset/dropzone": "5.5.0",
         "cweagans/composer-patches": "^1.6",
-        "drupal-composer/drupal-scaffold": "^2.4",
+        "drupal-composer/drupal-scaffold": "^2.6",
         "drupal/admin_toolbar": "1.26",
         "drupal/adminimal_admin_toolbar": "1.9.0",
         "drupal/adminimal_theme": "1.4",
