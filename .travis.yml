@@ -6,7 +6,6 @@ addons:
   apt:
       packages:
         - parallel
-        - php-gd
   hosts:
     - govcms8.local
 
@@ -32,6 +31,7 @@ matrix:
 
 before_install:
   # Tweak PHP configuration.
+  - pecl install gd
   - echo 'sendmail_path = /bin/true' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
   - echo 'max_execution_time = 180' >> govcms.php.ini;
   - echo 'sendmail_path = /bin/true' >> govcms.php.ini;
